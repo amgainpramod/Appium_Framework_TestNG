@@ -1,0 +1,1 @@
+lsof -t -i tcp:4723 | xargs kill

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.TestListeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="Test" time-out="2000000">
+        <classes>
+            <class name="org.example.FormFillTest"/>
+            <class name="org.example.ApiDemoTest"/>
+        </classes>
+    </test>
+</suite>
